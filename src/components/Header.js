@@ -6,29 +6,57 @@ import ContactButton from "../assets/images/ContactButton.png";
 
 const Header = () => {
   return (
-    <div className="site-header">
-      <button className="main-logo">
-        <img src={MainLogo} alt="" />
+    <div className="relative flex pt-[41px] pl-[150px] z-10">
+      <button className="relative w-[258px] h-[63px] bg-none border-none p-0 m-0 cursor-pointer">
+        <img className="absolute top-0 left-[-4px]" src={MainLogo} alt="" />
       </button>
-      <div className="main-menu">
-        <button className="home-plus">
+      <div className="flex items-center w-[481px] h-[25px] mt-[17px] ml-[191px] z-10">
+        <button className="flex items-center bg-none border-none p-0 cursor-pointer">
           <img src={HomePlus} alt="" />
         </button>
-        <button className="char-about">
-          <p>About</p>
+        <button
+          className="flex w-[55px] h-[24px] ml-[45px] font-poppins
+                           text-[16px] font-medium leading-[24px] tracking-[0.1em]
+                          text-left bg-none border-none p-0 cursor-pointer 
+                           items-center text-[#8B8B8B] "
+        >
+          <p className="m-0">About</p>
         </button>
-        <button className="char-service">
-          <p>Service</p>
+        <button
+          className="flex w-[69px] h-[24px] ml-[45px] font-poppins
+        text-[16px] font-medium leading-[24px] tracking-[0.1em]
+        text-left bg-none border-none p-0 cursor-pointer text-[#8B8B8B]  
+        "
+        >
+          <p className="m-0">Service</p>
         </button>
-        <button className="char-gallery">
-          <p>Gallery</p>
+        <button
+          className="flex w-[67px] h-[24px] ml-[46px] font-poppins
+        text-[16px] font-medium leading-[24px] tracking-[0.1em]
+        text-left bg-none border-none p-0 cursor-pointer text-[#8B8B8B]
+        "
+        >
+          <p className="m-0">Gallery</p>
         </button>
-        <button className="char-blog">
-          <p>Blog</p>
+        <button
+          className="flex w-[41px] h-[24px] ml-[47px] font-poppins
+          text-[16px] font-medium leading-[24px] tracking-[0.1em]
+          text-left bg-none border-none p-0 cursor-none text-[#8B8B8B]
+        "
+        >
+          <p className="m-0">Blog</p>
         </button>
       </div>
-      <button className="contact-button">
-        <img src={ContactButton} alt="" />
+      <button
+        className="w-[158px] h-[52px] mt-[4px] ml-[52px] bg-none
+      border-none p-0 cursor-pointer items-center z-10
+      "
+      >
+        <img
+          className="w-full h-full object-contain"
+          src={ContactButton}
+          alt=""
+        />
       </button>
     </div>
   );
