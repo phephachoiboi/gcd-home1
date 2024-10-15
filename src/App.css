@@ -8,158 +8,6 @@
  }
  
  /* Site Header */
- .site-header {
-  display: flex;
-  width: 1140px;
-  height: 63px;
-  padding-top: 41px;
-  padding-left: 150px;
-  z-index: 1;
- }
- 
- .main-logo {
-  position: relative;
-  width: 258px;
-  height: 63px;
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
- }
- 
- .main-logo img {
-  position: absolute;
-  top: 0;
-  left: -4px;
- }
- 
- .main-menu {
-  display: flex;
-  align-items: center;
-  width: 481px;
-  height: 25px;
-  margin-top: 17px;
-  margin-left: 191px;
-  z-index: 1;
- }
- 
- .contact-button {
-  width: 158px;
-  height: 52px;
-  margin-top: 4px;
-  margin-left: 52px;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  align-items: center;
-  z-index: 1;
- }
- 
- .contact-button img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
- }
- 
- .home-plus {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
- }
- 
- .char-about {
-  width: 55px;
-  height: 24px;
-  margin-left: 45px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  color: #8B8B8B;
- }
- 
- .char-about p {
-  margin: 0;
- }
- 
- .char-service {
-  width: 69px;
-  height: 24px;
-  margin-left: 45px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  color: #8B8B8B;
- }
- 
- .char-service p {
-  margin: 0;
- }
- 
- .char-gallery {
-  width: 67px;
-  height: 24px;
-  margin-left: 46px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  color: #8B8B8B;
- }
- 
- .char-gallery p {
-  margin: 0;
- }
- 
- .char-blog {
-  width: 41px;
-  height: 24px;
-  margin-left: 47px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  color: #8B8B8B;
- }
- 
- .char-blog p {
-  margin: 0;
- }
  
  /* Site Header Compete */
  
@@ -275,13 +123,6 @@
   /* top: 692.85px; */
   top: 685.7px;
   left: -412.5px;
- }
- 
- .slide-background {
-  position: absolute;
-  width: 1266.42px;
-  height: 743px;
-
  }
  
  /* Main Slider Complete  */
@@ -622,7 +463,7 @@
  .char-learn-more-button {
   position: absolute;
   width: 200px;
-  height: 57.36px;
+  /* height: 57.36px; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -667,15 +508,6 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
- }
- 
- .background-bubble {
-  position: absolute;
-  width: 948.15px;
-  height: 1028.89px;
-  margin-top: 1448px;
-  /*margin-left: 344.15px;*/
-  margin-left: 493px;
  }
  
  /* About Us Complete*/
@@ -1143,13 +975,6 @@
   color: #FFFFFF;
  }
  .char-send-message p{margin: 0;}
- 
- .background-bubble-contact-us {
-  position: absolute;
-  width: 1175.73px;
-  height: 929px;
-  margin-top: 3142px;
- }
  /* Contact Us Complete */
  
  /* Footer */
