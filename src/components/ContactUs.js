@@ -42,10 +42,11 @@ const ContactUs = () => {
             </p>
           </div>
         </div>
-        <div className="relative w-[520px] h-[652px] mt-[44px] p-0">
+        <div className="relative w-[520px] h-[652px] mt-[44px] p-0 border-[#D9DDFE]">
           <form>
             <div className="flex justify-center gap-[30px]">
               <input
+                className="border-[1px]"
                 type="text"
                 id="fname"
                 name="firstname"
@@ -53,6 +54,7 @@ const ContactUs = () => {
                 required
               />
               <input
+                className="border-[1px]"
                 type="text"
                 id="lname"
                 name="lastname"
@@ -61,6 +63,7 @@ const ContactUs = () => {
               />
             </div>
             <input
+              className="border-[1px]"
               type="text"
               id="email"
               name="email"
@@ -68,13 +71,14 @@ const ContactUs = () => {
               required
             />
             <input
+              className="border-[1px]"
               type="text"
               id="subjectmessage"
               name="message"
               placeholder="Subject message"
               required
             />
-            <div className="h-[239.47px] mb-[54.84px]">
+            <div className="h-[239.47px] mb-[54.84px] border-[1px] border-[#D9DDFE] rounded-[15px_15px_15px_15px]">
               <textarea placeholder="Your inquiry here" required></textarea>
             </div>
             <button
