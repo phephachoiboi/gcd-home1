@@ -21,30 +21,40 @@ import ToTopButton from "../assets/images/ToTopButton.png";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="combine-bottom-background">
-        <div className="footer-background">
+    <div className="flex flex-col relative w-[1440px] h-[705.34px] mt-[69.66px]">
+      <div className="relative w-[1440px] h-[705.34px]">
+        <div className="absolute w-[1440px] h-[705.34px] left-0 z-0">
           <img src={FooterBackGround} alt="Footer background" />
         </div>
-        <div className="bottom-background">
+        <div className="absolute w-[1440px] h-[125px] top-[580.34px] z-[-1]">
           <img src={BottomBackGround} alt="Bottom background" />
         </div>
 
-        <div className="upper-part-footer">
-          <div className="sidebar1">
-            <div className="footer-logo">
+        <div className="flex relative w-[1140px] h-[219px] mt-[225.34px] ml-[150px]">
+          <div className="flex flex-col relative w-[492px] h-[191px] mt-[16px] z-10">
+            <div className="w-[258px] h-[63px]">
               <img src={FooterLogo} alt="" />
             </div>
-            <div className="char-beautice-footer-combination">
-              <div className="char-beautice-footer-part1">
-                <p>Beautice</p>
+            <div className="flex relative w-[461px] h-[21px] mt-[33px] ml-[31px]">
+              <div
+                className="relative font-poppins text-[16px] font-bold
+              leading-[24px] tracking-[0.1em] text-left text-[#D7DBFF]"
+              >
+                <p className="m-0">Beautice</p>
               </div>
-              <div className="char-beautice-footer-part2">
-                <p>is a Beauty Clinic WordPress Theme.</p>
+              <div
+                className="relative ml-[5px] font-poppins text-[16px] font-normal
+              leading-[24px] tracking-[0.1em] text-left text-[#D7DBFF]"
+              >
+                <p className="m-0">is a Beauty Clinic WordPress Theme.</p>
               </div>
             </div>
-            <div className="char-baker-footer">
-              <p>Baker Steet 101, NY, United States.</p>
+            <div
+              className="relative w-[297px] h-[24px] mt-[26px] ml-[32px] font-poppins
+            text-[14px] italic font-medium leading-[21px] tracking-[0.1em]
+            text-left text-[#D7DBFF]"
+            >
+              <p className="m-0">Baker Steet 101, NY, United States.</p>
             </div>
             <div className="char-contact-info">
               <div className="char-phone-footer">
