@@ -8,7 +8,7 @@ import ContactUs from "./ContactUs";
 
 const Home1Scenario = () => {
   return (
-    <main className="container">
+    <main className="flex flex-col relative m-0 p-0">
       <MainSlider />
       <CoreServices />
       <AboutUs />
