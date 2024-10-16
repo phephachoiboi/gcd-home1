@@ -23,10 +23,10 @@ const Footer = () => {
   return (
     <div className="flex flex-col relative w-[1440px] h-[705.34px] mt-[69.66px]">
       <div className="relative w-[1440px] h-[705.34px]">
-        <div className="absolute w-[1440px] h-[705.34px] left-0 z-0">
+        <div className="absolute w-[1440px] h-[705.34px] left-0 z-10">
           <img src={FooterBackGround} alt="Footer background" />
         </div>
-        <div className="absolute w-[1440px] h-[125px] top-[580.34px] z-[-1]">
+        <div className="absolute w-[1440px] h-[125px] top-[580.34px] left-0 z-0">
           <img src={BottomBackGround} alt="Bottom background" />
         </div>
 
@@ -56,58 +56,140 @@ const Footer = () => {
             >
               <p className="m-0">Baker Steet 101, NY, United States.</p>
             </div>
-            <div className="char-contact-info">
-              <div className="char-phone-footer">
-                <p>+521 569 8966.</p>
+            <div
+              className="flex relative w-[358px] h-[23px]
+            mt-[1px] ml-[31px] text-center"
+            >
+              <div
+                className="w-[140px] h-[23px] font-poppins text-[14px] italic
+              font-medium leading-[21px] tracking-[0.1em] text-left text-[#D7DBFF]"
+              >
+                <p className="m-0">+521 569 8966.</p>
               </div>
-              <div className="char-mail-footer">
-                <p>mail@company.com.</p>
+              <div
+                className="relative w-[190px] h-[23px] ml-[28px] font-poppins
+              text-[14px] italic font-medium leading-[21px] tracking-[0.1em]
+              text-left text-[#D7DBFF]"
+              >
+                <p className="m-0">mail@company.com.</p>
               </div>
             </div>
           </div>
 
-          <div className="sidebar2">
-            <div className="char-pages-footer">
-              <p>Pages</p>
+          <div className="relative w-[131px] h-[219px] ml-[129px] z-10">
+            <div
+              className="w-[129px] h-[31px] font-poppins text-[18px] 
+            font-semibold leading-[27px] tracking-[0.1em] text-left text-white"
+            >
+              <p className="m-0">Pages</p>
             </div>
-            <button className="home-footer-button">
-              <img src={HomeFooter} alt="" />
+            <button
+              className="flex w-[131px] h-[24px] mt-[24px] bg-none
+             border-none p-0 cursor-pointer text-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={HomeFooter}
+                alt=""
+              />
             </button>
-            <button className="about-footer-button">
-              <img src={AboutFooter} alt="" />
+            <button
+              className="flex w-[131px] h-[24px] mt-[11px] bg-none
+            border-none p-0 cursor-pointer text-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={AboutFooter}
+                alt=""
+              />
             </button>
-            <button className="about-services-button">
-              <img src={ServicesFooter} alt="" />
+            <button
+              className="flex w-[131px] h-[24px] mt-[11px] bg-none
+            border-none p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={ServicesFooter}
+                alt=""
+              />
             </button>
-            <button className="about-gallery-button">
-              <img src={PortfolioFooter} alt="" />
+            <button
+              className="flex w-[131px] h-[24px] mt-[11px] bg-none
+            border-none p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={PortfolioFooter}
+                alt=""
+              />
             </button>
-            <button className="about-team-button">
-              <img src={TeamFooter} alt="" />
+            <button
+              className="flex w-[131px] h-[24px] mt-[11px] bg-none
+            border-none cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={TeamFooter}
+                alt=""
+              />
             </button>
           </div>
 
-          <div className="sidebar3">
-            <div className="char-informations-footer">
-              <p>Informations</p>
+          <div className="relative w-[215px] h-[184px] ml-[173px] z-10">
+            <div
+              className="w-[175px] h-[31px] font-poppins text-[18px] font-semibold
+            leading-[27px] tracking-[0.1em] text-left text-white"
+            >
+              <p className="m-0">Informations</p>
             </div>
-            <button className="home-terms-condition-button">
-              <img src={TermsConditionFooter} alt="" />
+            <button
+              className="flex w-[215px] h-[24px] mt-[24px] bg-none border-none
+            p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={TermsConditionFooter}
+                alt=""
+              />
             </button>
-            <button className="privacy-policy-button">
-              <img src={PrivacyFooter} alt="" />
+            <button
+              className="flex w-[215px] h-[24px] mt-[11px] bg-none border-none
+            p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={PrivacyFooter}
+                alt=""
+              />
             </button>
-            <button className="blog-footer-button">
-              <img src={CareersFooter} alt="" />
+            <button
+              className="flex w-[215px] h-[24px] mt-[11px] bg-none border-none
+            p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={CareersFooter}
+                alt=""
+              />
             </button>
-            <button className="contact-footer-button">
-              <img src={ContactFooter} alt="" />
+            <button
+              className="flex w-[215px] h-[24px] mt-[11px] bg-none border-none
+            p-0 cursor-pointer items-center"
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={ContactFooter}
+                alt=""
+              />
             </button>
           </div>
         </div>
 
-        <div className="lower-part-footer">
-          <div className="social-media-footer-bar">
+        <div className="flex relative w-[1140px] h-[31.18px] mt-[140.05px] ml-[150px]">
+          <div
+            className="flex relative justify-between w-[305px] h-[27.84px]
+          mt-[1.95px] z-10"
+          >
             <div className="facebook-footer">
               <img src={FacebookFooter} alt="" />
             </div>
@@ -125,13 +207,24 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="alt-desain-footer">
-            <p>© AltDesain Studio 2021 - All right reserved.</p>
+          <div
+            className="relative w-[497px] h-[31.18px] left-[338px]
+          font-poppins text-[16px] font-normal leading-[24px]
+          tracking-[0.1em] text-right text-[#D7DBFF] z-10"
+          >
+            <p className="m-0">© AltDesain Studio 2021 - All right reserved.</p>
           </div>
         </div>
 
-        <button className="to-top-button">
-          <img src={ToTopButton} alt="" />
+        <button
+          className="flex absolute w-[36px] h-[36px] top-[499.34px]
+        left-[1339px] bg-none border-none p-0 cursor-pointer items-center z-10"
+        >
+          <img
+            className="w-full h-full object-contain"
+            src={ToTopButton}
+            alt=""
+          />
         </button>
       </div>
     </div>
