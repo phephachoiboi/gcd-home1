@@ -7,13 +7,13 @@ import BackgroundBubbleContactUs from "../assets/images/BackgroundBubbleContactU
 const BackgroundBubbleCombine = () => {
   return (
     <div className="background-bubble-combine">
-      <div className="absolute w-[1266.42px] h-[743px]">
+      <div className="absolute max-w-[1266.42px] max-h-[743px] ">
         <img src={SlideBackground} alt="" />
       </div>
-      <div className="absolute w-[948.15px] h-[1028.89px] mt-[1448px] ml-[493px]">
+      <div className="absolute max-w-[948.15px] max-h-[1028.89px] mt-[1448px] ml-[493px]">
         <img src={BackgroundBubble} alt="" />
       </div>
-      <div className="absolute w-[1175.73px] h-[929px] mt-[3142px]">
+      <div className="absolute max-w-[1175.73px] max-h-[929px] mt-[3142px]">
         <img src={BackgroundBubbleContactUs} alt="" />
       </div>
     </div>
