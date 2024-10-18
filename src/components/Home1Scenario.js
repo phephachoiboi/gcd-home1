@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import MainSlider from "./MainSlider";
+import MainSliderTest from "./MainSliderTest";
 import CoreServices from "./CoreServices";
 import AboutUs from "./AboutUs";
 import ProfessionalTeams from "./ProfessionalTeams";
@@ -9,11 +9,11 @@ import ContactUs from "./ContactUs";
 const Home1Scenario = () => {
   return (
     <main className="flex flex-col relative m-0 p-0">
-      <MainSlider />
-      <CoreServices />
+      <MainSliderTest />
+      {/* <CoreServices />
       <AboutUs />
       <ProfessionalTeams />
-      <ContactUs />
+      <ContactUs /> */}
     </main>
   );
 };

@@ -46,8 +46,8 @@ const Header = () => {
   return (
     <div>
       <div
-        className="relative flex pt-[41px] md:justify-between lg:justify-between max-w-[1140px] lg:px-0 md:px-6 px-4 
-       mx-auto z-10 lg:flex w-full"
+        className="relative flex pt-[41px] md:justify-between lg:justify-between max-w-[1140px] lg:px-0 md:px-6 px-4
+       mx-auto z-[2] lg:flex w-full "
       >
         {/* Main Logo */}
         <button className="relative md:flex w-[258px] h-[63px] bg-none border-none p-0 m-0 cursor-pointer">
@@ -67,7 +67,7 @@ const Header = () => {
         </div>
         {/* Overlay hover when clicking */}
         {isMenuOpen && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 z-10" />
+          <div className="fixed inset-0 bg-black bg-opacity-50 z-[1]" />
         )}
 
         {/* Conbine menu bar contact button */}

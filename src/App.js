@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <div className="home1">
-        <BackgroundBubbleCombine />
+        {/* <BackgroundBubbleCombine /> */}
         <Header />
         <Home1Scenario />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
