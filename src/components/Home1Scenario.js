@@ -11,7 +11,7 @@ const Home1Scenario = () => {
     <main className="flex flex-col relative m-0 p-0">
       <MainSlider />
       <CoreServices />
-      {/* <AboutUs /> */}
+      <AboutUs />
       {/* <ProfessionalTeams /> */}
       {/* <ContactUs />  */}
     </main>
